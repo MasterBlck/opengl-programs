@@ -1,0 +1,6 @@
+En el archivo anterior se explica la instalacion de las librerias basicas de 
+desarrollo de OpenGL, sin embargo si queremos agregar librerias complementarias debemos instalar:
+
+$ sudo apt-get install libxmu-dev libxi-dev libglew-dev libgl-dev dos2unix
+
+$ sudo apt-get install libglewmx-dev libglm-dev libglfw-dev

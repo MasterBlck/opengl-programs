@@ -1,5 +1,8 @@
 Instrucciones para compilar usando OpenGL
 
+Tener instalado opengl con
+sudo apt-get install freeglut3 freeglut3-dev freeglut3-dbg
+
 comando general para compilar archivos en c:
 gcc -lglut -lGLU -lGL nombreArchivo.c -o nombreEjec
 
