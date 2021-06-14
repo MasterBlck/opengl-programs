@@ -1,0 +1,28 @@
+Instrucciones para compilar usando OpenGL
+
+comando general para compilar archivos en c:
+gcc -lglut -lGLU -lGL nombreArchivo.c -o nombreEjec
+
+compilar si hay errores (Seguro funciona) 
+gcc -o prueba test.c -lGL -lX11 -lGLU -lglut
+
+
+//Para compilar, de preferencia usar 'Code Blocks'
+Configurar el compilador en Settings/Compiler
+en la pestaña 'Linker settings', en la lista de 'Link libraries' podemos añadir:
+glut
+GLU
+
+para compilar en modo terminal si los archivos provienen de 'Code Blocks'
+gcc -o ejecutable archivo.c -lGL -lX11
+
+***********************************************************
+librerias básicas que deben existir:
+#include <GL/glx.h>
+#include <GL/gl.h>
+
+#include <GL/freeglut.h> <------------ésta es opcional
+***********************************************************
+
+//Para compilar en c++
+
